@@ -41,3 +41,6 @@ luac.out
 
 /.idea/
 /gateway.iml
+
+# Must provided by user
+/config/license.json
