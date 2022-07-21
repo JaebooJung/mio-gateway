@@ -3,7 +3,6 @@ version: '3.9'
 
 x-kong-config: &kong-env
   # Add plugin names
-  KONG_CUSTOM_PLUGINS: helloworld
   KONG_PLUGINS: bundled, helloworld
   # Uncomment below for debugging
   #KONG_LOG_LEVEL: debug
